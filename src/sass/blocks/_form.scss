@@ -1,0 +1,22 @@
+.form{
+    margin-top: 36px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    input{
+        padding: 0 20px;
+        height: 54px;
+        border-radius: 5px;
+        margin-bottom: 11px;
+    }
+    button{
+        margin-top: 6px;
+    }
+}
+
+@media ( max-width: 991px){
+    .form{
+        margin: 0 auto;
+    }
+   
+}
